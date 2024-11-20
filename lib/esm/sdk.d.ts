@@ -10,6 +10,8 @@ export interface SdkConfig {
     signinPath?: string;
     scope?: string;
     storage?: Storage;
+    backendCbUrl: string;
+    backendProfileUrl: string;
 }
 export interface Account {
     organization: string;
